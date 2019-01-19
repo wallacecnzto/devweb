@@ -79,18 +79,10 @@ body.fotos #navegacao a#fotos
     margin-top: 60px;
 }
 
-#tres-colunas #primario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
-}
-
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
@@ -106,7 +98,6 @@ body.fotos #navegacao a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 #lateral {
@@ -131,6 +122,46 @@ body.fotos #navegacao a#fotos
     color: #a1a1a1;
 }
 
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #ffffff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
 #container-rodape {
     background: #294c71;
     padding: 20px;
@@ -146,7 +177,7 @@ body.fotos #navegacao a#fotos
 
 .caixa-conteudo {
     background: #fff;
-    padding 5px;
+    padding: 5px;
     margin-top: 5px;
 }
 
